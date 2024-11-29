@@ -1,0 +1,23 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore data files
+data/db/*
+
+# Ignore environment files
+.python-version
+
+# Ignore Docker-related files
+docker-compose.override.yml
+
+# Ignore log files
+*.log
+
+# Ignore lock files
+*.lock
